@@ -29,7 +29,6 @@
        POSTGRES_USER=root
        POSTGRES_PASSWORD=password
        POSTGRES_DB=n8n
-       N8N_WEBHOOK_URL=http://localhost
        N8N_ENCRYPTION_KEY=super-secret-key
        N8N_USER_MANAGEMENT_JWT_SECRET=even-more-secret
     Save the .env file by pressing ctrl+x
