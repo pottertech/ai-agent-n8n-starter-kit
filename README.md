@@ -20,11 +20,11 @@
 <li>2. Login to your droplet.</li>
 <li>3. Install docker and docker compose following these steps: https://medium.com/@tomer.klein/step-by-step-tutorial-installing-docker-and-docker-compose-on-ubuntu-a98a1b7aaed0</li>
 <li>4. Clone this repo using the following commands</li>
-<li>.   clone https://github.com/pottertech/ai-agent-n8n-starter-kit.git</li>
-<li>    cd ai-agent-n8n-starter-kit</li>
-6. Configure the environment following these steps
-    cd local-ai-packaged
-    cp .env.example .env
+<li>   # git clone https://github.com/pottertech/ai-agent-n8n-starter-kit.git</li>
+<li>   # cd ai-agent-n8n-starter-kit</li>
+<li>6. Configure the environment following these steps</li>
+<li>   # cd local-ai-packaged</li>
+<li>   # cp .env.example .env</li>
     nano .env
     Change all of the information to your desired settings for all of these entries:
        POSTGRES_USER=root
