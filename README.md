@@ -15,8 +15,9 @@
 
 # Virtual Private Server Installation
 <p>
-1. Visit DigitalOceen.com and create a Droplet.
-2. Login to your droplet.
+<ul>
+<li>1. Visit DigitalOceen.com and create a Droplet.</li>
+<li>2. Login to your droplet.</li>
 3. Install docker and docker compose following these steps: https://medium.com/@tomer.klein/step-by-step-tutorial-installing-docker-and-docker-compose-on-ubuntu-a98a1b7aaed0
 4. Clone this repo using the following commands
     git clone https://github.com/pottertech/ai-agent-n8n-starter-kit.git
