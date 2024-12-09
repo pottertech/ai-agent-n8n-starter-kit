@@ -33,6 +33,9 @@
        N8N_ENCRYPTION_KEY=super-secret-key
        N8N_USER_MANAGEMENT_JWT_SECRET=even-more-secret
     Save the .env file by pressing ctrl+x
+<li>Install apache2 using the following command: apt install apache2</li>
+<li>If you are going to use SSL Install certbot following these steps: https://www.inmotionhosting.com/support/website/ssl/lets-encrypt-ssl-ubuntu-with-certbot </li>
+  
 <li>7. Install and run the kit using this step</li>
 <li>   # docker compose --profile cpu pull</li>
 <li>   # docker compose create && docker compose --profile cpu up</li>
