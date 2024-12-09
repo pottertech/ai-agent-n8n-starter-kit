@@ -34,7 +34,8 @@
        N8N_USER_MANAGEMENT_JWT_SECRET=even-more-secret
     Save the .env file by pressing ctrl+x
 7. Install and run the kit using this step
-    docker compose --profile cpu up
+     docker compose --profile cpu pull
+     docker compose create && docker compose --profile cpu up
    
 Give it a few minutes and everything should be online for you to access.   
 </p>
