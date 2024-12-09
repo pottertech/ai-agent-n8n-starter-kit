@@ -13,6 +13,12 @@
 </p>
 <br/>
 
+# Virtual Private Server Installation
+1. Visit DigitalOceen.com and create a Droplet.
+2. Login to your droplet.
+3. Install docker and docker compose following these steps: https://medium.com/@tomer.klein/step-by-step-tutorial-installing-docker-and-docker-compose-on-ubuntu-a98a1b7aaed0
+4. 
+
 ## What are AI Agents?
 
 AI agents are Large Language Models, aka LLMs, that have been given the ability to interact with the outside world. They
