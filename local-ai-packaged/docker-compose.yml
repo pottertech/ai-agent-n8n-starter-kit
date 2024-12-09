@@ -43,8 +43,7 @@ x-init-ollama: &init-ollama
   entrypoint: /bin/sh
   command:
     - "-c"
-    - "sleep 3; OLLAMA_HOST=ollama:11434 ollama pull llama3.1; OLLAMA_HOST=ollama:11434 ollama pull nomic-embed-text"
-
+    - "sleep 3; OLLAMA_HOST=ollama:11434 ollama pull llama3.2:1b; OLLAMA_HOST=ollama:11434 ollama pull llama3.2; OLLAMA_HOST=ollama:11434 ollama pull tinyllama; OLLAMA_HOST=ollama:11434 ollama pull nomic-embed-text"
 services:
   flowise:
     image: flowiseai/flowise
@@ -95,6 +94,9 @@ services:
     <<: *service-n8n
     container_name: n8n-import
     entrypoint: /bin/sh
+    environment:
+      - N8N_SECURE_COOKIE=false
+      - WEBHOOK_URL=N8N_WEBHOOK_URL  
     command:
       - "-c"
       - "n8n import:credentials --separate --input=/backup/credentials && n8n import:workflow --separate --input=/backup/workflows"
