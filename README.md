@@ -33,9 +33,9 @@
        N8N_ENCRYPTION_KEY=super-secret-key
        N8N_USER_MANAGEMENT_JWT_SECRET=even-more-secret
     Save the .env file by pressing ctrl+x
-7. Install and run the kit using this step
-     docker compose --profile cpu pull
-     docker compose create && docker compose --profile cpu up
+<li>7. Install and run the kit using this step</li>
+<li>   # docker compose --profile cpu pull</li>
+<li>   # docker compose create && docker compose --profile cpu up</li>
    
 Give it a few minutes and everything should be online for you to access.   
 </p>
