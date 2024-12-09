@@ -20,7 +20,7 @@
 4. Clone this repo using the following commands
     git clone https://github.com/pottertech/ai-agent-n8n-starter-kit.git
     cd ai-agent-n8n-starter-kit
-5. Configure the environment following these steps
+6. Configure the environment following these steps
     cd local-ai-packaged
     cp .env.example .env
     nano .env
@@ -32,7 +32,7 @@
        N8N_ENCRYPTION_KEY=super-secret-key
        N8N_USER_MANAGEMENT_JWT_SECRET=even-more-secret
     Save the .env file by pressing ctrl+x
-6. Install and run the kit using this step
+7. Install and run the kit using this step
     docker compose --profile cpu up
    
 Give it a few minutes and everything should be online for you to access.   
