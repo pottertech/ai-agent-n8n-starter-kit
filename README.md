@@ -17,7 +17,25 @@
 1. Visit DigitalOceen.com and create a Droplet.
 2. Login to your droplet.
 3. Install docker and docker compose following these steps: https://medium.com/@tomer.klein/step-by-step-tutorial-installing-docker-and-docker-compose-on-ubuntu-a98a1b7aaed0
-4. 
+4. Clone this repo using the following commands
+    git clone https://github.com/pottertech/ai-agent-n8n-starter-kit.git
+    cd ai-agent-n8n-starter-kit
+5. Configure the environment following these steps
+    cd local-ai-packaged
+    cp .env.example .env
+    nano .env
+    Change all of the information to your desired settings for all of these entries:
+       POSTGRES_USER=root
+       POSTGRES_PASSWORD=password
+       POSTGRES_DB=n8n
+       N8N_WEBHOOK_URL=http://localhost
+       N8N_ENCRYPTION_KEY=super-secret-key
+       N8N_USER_MANAGEMENT_JWT_SECRET=even-more-secret
+    Save the .env file by pressing ctrl+x
+6. Install and run the kit using this step
+    docker compose --profile cpu up
+   
+Give it a few minutes and everything should be online for you to access.   
 
 ## What are AI Agents?
 
