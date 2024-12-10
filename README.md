@@ -16,6 +16,10 @@
 # Virtual Private Server Installation
 Work in Progress...
 
+# Installation Commands
+git clone https://github.com/pottertech/ai-agent-n8n-starter-kit
+cd self-hosted-ai-starter-kit
+
 ## What are AI Agents?
 
 AI agents are Large Language Models, aka LLMs, that have been given the ability to interact with the outside world. They
