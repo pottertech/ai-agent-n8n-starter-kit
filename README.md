@@ -17,8 +17,10 @@
 Work in Progress...
 
 # Installation Commands
-git clone https://github.com/pottertech/ai-agent-n8n-starter-kit
-cd self-hosted-ai-starter-kit
+<ul>
+  <li>git clone https://github.com/pottertech/ai-agent-n8n-starter-kit</li>
+  <li>cd self-hosted-ai-starter-kit</li>
+</ul>
 
 ## What are AI Agents?
 
