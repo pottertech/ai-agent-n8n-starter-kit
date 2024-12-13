@@ -21,6 +21,9 @@ Work in Progress...
   <li>git clone https://github.com/pottertech/ai-agent-n8n-starter-kit</li>
   <li>cd ai-agent-n8n-starter-kit/local-ai-packaged</li>
   <li>cp .env.example .env</li>
+  <li>Edit the .env file as needed</li>
+  <li>Edit the docker-compose.yml file as needed
+  <li>docker compose --profile cpu up</li>
 </ul>
 
 ## What are AI Agents?
